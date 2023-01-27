@@ -1,15 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
-
-:root {
-  --main-font-family: "Roboto", sans-serif;
-  --primary-color: #212121;
-  --secondary-color: #757575;
-  --dark-background-color: #2f303a;
-  --grey-backgroud-color: #f5f4fa;
-  --active-color: #2196f3;
-  --icons-color: #afb1b8;
-}
-
+@import "./utils/vars";
 body {
   color: var(--primary-color);
   font-family: var(--main-font-family);
@@ -31,18 +21,7 @@ body {
   justify-content: center;
 }
 
-.logo {
-  color: #000000;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19; /*31px*/
-  letter-spacing: 0.03em;
-}
-
-.logo__span {
-  color: var(--active-color);
-}
+@import "./components/logo";
 
 .link {
   text-decoration: none;
