@@ -31,7 +31,9 @@
         <nav class="navigation">
           <ul class="navigation__list">
             <li class="navigation__item">
-              <a class="navigation__link is-active" href="./index.html"
+              <a
+                class="navigation__link navigation__link--active"
+                href="./index.html"
                 >Agencja</a
               >
             </li>
@@ -63,13 +65,13 @@
         </ul>
       </div>
     </header>
-    <header class="section hero-section">
-      <div class="container hero-section__container">
-        <h1 class="hero-section__headline">
+    <div class="hero">
+      <div class="container hero__container">
+        <h1 class="hero__headline">
           Efektywne rozwiązania <br />
           dla waszego biznesu
         </h1>
-        <button type="button" class="hero-section__button" data-modal-open>
+        <button type="button" class="hero__button" data-modal-open>
           Zamów usługę
         </button>
         <div class="modal-overlay is-hidden" data-modal>
@@ -168,55 +170,55 @@
           </div>
         </div>
       </div>
-    </header>
+    </div>
     <main>
       <section class="section">
         <div class="container">
           <ul class="our-assets">
             <li class="asset">
               <div class="asset__icon-wrapper">
-                <svg class="asset__icon" width="70px" height="70px">
+                <svg width="70px" height="70px">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
               <h3 class="asset__name">LOREM IPSUM</h3>
-              <p class="asset__text">
+              <p class="asset__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li class="asset">
               <div class="asset__icon-wrapper">
-                <svg class="asset__icon" width="70px" height="70px">
+                <svg width="70px" height="70px">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
               <h3 class="asset__name">LOREM IPSUM</h3>
-              <p class="asset__text">
+              <p class="asset__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li class="asset">
               <div class="asset__icon-wrapper">
-                <svg class="asset__icon" width="70px" height="70px">
+                <svg width="70px" height="70px">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
               <h3 class="asset__name">LOREM IPSUM</h3>
-              <p class="asset__text">
+              <p class="asset__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li class="asset">
               <div class="asset__icon-wrapper">
-                <svg class="asset__icon" width="70px" height="70px">
+                <svg width="70px" height="70px">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
               <h3 class="asset__name">LOREM IPSUM</h3>
-              <p class="asset__text">
+              <p class="asset__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
@@ -273,7 +275,7 @@
       </section>
       <section class="our-team">
         <div class="section container">
-          <h2 class="our-team-headline">Nasz zespół</h2>
+          <h2 class="our-team__headline">Nasz zespół</h2>
           <ul class="team-cards">
             <li>
               <figure class="card">
@@ -554,7 +556,7 @@
           </div>
           <ul class="footer-contact">
             <li class="footer-contact__item">
-              <address class="address">
+              <address class="footer-contact__address">
                 m. Warszawa, Aleje Jerozolimskie 21
               </address>
             </li>
@@ -618,9 +620,9 @@
               type="email"
               name="email"
             />
-            <button type="submit" class="newsletter-button">
+            <button type="submit" class="newsletter__button">
               <span>Zapisz się</span>
-              <svg class="newsletter-button__icon" width="24px" height="24px">
+              <svg class="newsletter__button-icon" width="24px" height="24px">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
